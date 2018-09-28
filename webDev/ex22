@@ -1,0 +1,26 @@
+print = output into terminal
+"" = inside print to output strings
+'' = 
+# = comment
++, -, *, / = add, subtract, multiply, divide
+<, >, <=, >= = less than, greater than, less than or equal to, greater than or equal to
+, = seperater
+True and False = boolean expression
+format = to make into whatever variable 
+input = to put in the variable in that place
+\n = new line
+\t = tabbs in
+\\ = puts a \
+{} = variable input
+argv = where strings are placed (argument variable)
+print(f"") = format string
+open = opens the file 
+txt.read = reads file in terminal
+close = Closes the file. Like File->Save.. in your editor.
+read = Reads the contents of the file. You can assign the result to a variable.
+readline = Reads just one line of a text file.
+truncate = Empties the file. Watch out if you care about the file.
+write('stuff') = Writes ”stuff” to the file.
+seek(0) = Move the read/write location to the beginning of the file.
+def = create a function
+return = outputs the variables when altered
