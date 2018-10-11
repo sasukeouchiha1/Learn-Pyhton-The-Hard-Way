@@ -1,3 +1,4 @@
+from sys import argv
 print("How old are you?", end=' ')
 age = input()
 print("How tall are you?", end=' ')
@@ -12,14 +13,14 @@ script, filename = argv
 txt = open(filename)
 
 print("Here's your file {filename}:")
-print(tx.read())
+print(txt.read())
 
 print("Type the filename again:")
 file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again_read())
+print(txt_again.read())
 
 
 print('Let\'s practice everything.')
@@ -44,13 +45,13 @@ print(f"This should be five: {five}")
 
 def secret_formula(started):
     jelly_beans = started * 500
-    jars = jelly_beans / 1000
-    crates = jars = 100
-    return beans, jars, crates
+    jars = jelly_beans /1000
+    crates = jars / 100
+    return jelly_beans, jars, crates
 
 
 start_point = 10000
-beans, jars = secret_formula(start_point)
+beans, jars, crates = secret_formula(start_point)
 
 # remember that this is another way to format a string
 print("With a starting point of: {}".format(start_point))
@@ -67,12 +68,12 @@ print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 people = 20
-cates = 30
+cats = 30
 dogs = 15
 
 
 if people < cats:
-    print ("Too many cats! The world is doomed!")
+    print("Too many cats! The world is doomed!")
 
 if people < cats:
     print("Not many cats! The world is saved!")
