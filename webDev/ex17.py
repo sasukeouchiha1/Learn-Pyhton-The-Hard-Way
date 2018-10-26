@@ -1,5 +1,6 @@
 from sys import argv
 from os.path import exists
+#good for you bro
 
 script, from_file, to_file - argv
 
